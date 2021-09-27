@@ -1,0 +1,46 @@
+/************the body********/
+html{
+    font-size: 14px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+@media(min-width: 768px) {
+    html{
+        font-size: 16px;
+    }
+}
+/****************************/
+
+/******Blog header*********/
+.blog-header{
+    max-width: 700px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+@media(max-width: 768px){
+    .blog-header{
+        margin-top: 8rem;
+    }
+}
+/****************************/
+
+/******header*********/
+.header{
+    background-color:black;
+    color: white;
+}
+/****************************/
+
+.contacts{
+   align-content: center; 
+}
+/******Edit page*********/
+#editForm{
+    text-align: center;
+}
+
+.edit-buttons{
+    text-align: center;
+}
